@@ -1,14 +1,12 @@
 {
-  "name": "egghead-react-app-tut",
+  "name": "egghead-react-note-app",
   "version": "1.0.0",
-  "description": "Notetaker Tut",
+  "description": "egghead gihub notetaking tut app",
   "main": "public/bundle.js",
   "scripts": {
     "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Benjamin Gandhi-Shepard <ben@brownerd.com> (http://brownerd.com/)",
-  "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6.1.19",
     "babel-runtime": "6.1.18",
@@ -16,7 +14,8 @@
     "path": "0.12.7",
     "react": "0.14.2",
     "react-dom": "0.14.2",
-    "react-router": "1.0.0"
+    "react-router": "1.0.0",
+    "webpack-dev-server": "1.12.1"
   },
   "devDependencies": {
     "babel-core": "6.1.21",
@@ -26,5 +25,7 @@
     "babel-preset-react": "6.1.18",
     "babel-preset-stage-0": "6.1.18",
     "webpack": "1.12.6"
-  }
+  },
+  "author": "Benjamin Gandhi-Shepard <ben@brownerd.com> (http://brownerd.com/)",
+  "license": "MIT"
 }

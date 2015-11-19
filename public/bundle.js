@@ -24856,7 +24856,7 @@
 	    return _react2.default.createElement(
 	      'div',
 	      null,
-	      'hello yoskioooo!'
+	      'hello yoloo!'
 	    );
 	  }
 	});

@@ -4,7 +4,7 @@ var Main = React.createClass({
   render: function() {
     return (
       <div>
-        hello yoskioooo!
+        hello yo ho ho holup!
       </div>
     )
   }
