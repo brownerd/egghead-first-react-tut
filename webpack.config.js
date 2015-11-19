@@ -1,6 +1,8 @@
 var path = require('path');
 var webpack = require('webpack');
 
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
 
 
@@ -10,8 +12,8 @@ module.exports = {
 
     // Add your application's scripts below
     //'./app/components/Main'
-    './app/App',
-    'webpack-dev-server/client?http://localhost:8080'
+    './app/App'
+    //,'webpack-dev-server/client?http://localhost:8080'
   ],
   output: {
     //filename: 'public/bundle.js'
@@ -23,9 +25,27 @@ module.exports = {
 
     // Bundle will be available at localhost:8080/bundle.js
   },
+
+
   devServer: {
-    contentBase: "./public/"
+    ////contentBase: "./public/",
+    port: 3000,
+    historyApiFallback: true
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      //template: 'node_modules/html-webpack-template/index.html',
+      template: 'public/index.html',
+      title: 'React!',
+      devServer: 'http://localhost:3000',
+      appMountId: 'app'
+    })
+  ],
+
+
+
+
+
   module: {
     loaders: [
       {

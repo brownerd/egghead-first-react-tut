@@ -18,9 +18,7 @@ import Profile from './components/Profile';
 var routes = (
   <Router history={createHistory()}>
     <Route path="/" component={Main} />
-    <IndexRoute component={Main}/>
-    <Route path="/profile" component={Main}/>
-    <Route path="/profile/:username" component={Main}/>
+    <Route path="/profile/:username" component={Profile}/>
     <Route path="*" component={NotFound} />
   </Router>
 )
