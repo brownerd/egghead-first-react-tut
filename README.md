@@ -23,9 +23,8 @@ To get the routes to change correctly I had to use:
 - [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin)
 - [react-config](https://github.com/jaketrent/react-config)
 - [html-webpack-template](https://github.com/jaketrent/html-webpack-template)
+- [History API Fallback](https://github.com/webpack/webpack-dev-server/tree/master/example#history-api-fallback)
 
 There has got to be a better way that this! Holy shit.
 
 ## Challenge 4
-
-...to come...
